@@ -1,5 +1,6 @@
 package zouzouspot;
 
+
 /**
  * 
  * @author saien
@@ -9,7 +10,15 @@ package zouzouspot;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+			
+		Utilisateur user = new Utilisateur();
+		user.ajouterPersonne();
+		user.seConnecter();
+		user.seDeconnecter();
+		
+		System.out.println();
+		
 
 	}
 

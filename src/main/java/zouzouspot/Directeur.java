@@ -1,14 +1,17 @@
 package zouzouspot;
 
 public class Directeur extends Employe implements Relation{
+	
+	
 
-	public void ajouterPerssone() {
+
+	@Override
+	public void travailler() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void travailler() {
+	public void ajouterPersonne() {
 		// TODO Auto-generated method stub
 		
 	}
